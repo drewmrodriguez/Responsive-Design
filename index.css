@@ -182,3 +182,75 @@ h3 {
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
+
+@media (max-width: 800px) {
+    
+    
+
+    header {
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+    }
+
+    .first_container {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        padding: 5%;
+    }
+
+    #Headshot_img {
+        margin: 0 auto;
+        width: 60%;
+
+    }
+
+    .info_container {
+        margin: 0 auto;
+        padding: 5%;
+    }
+
+    .project_section {
+        display: block;
+        margin: 0 auto;
+        width: 58%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+
+    header {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+
+    .first_container {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #Headshot_img {
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .info_container {
+        margin: 0 auto;
+        padding: 5%;
+    }
+
+    .project_section {
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+        width: 78%;
+        padding: 0%;
+        
+    }
+
+    
+}

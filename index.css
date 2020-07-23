@@ -1,0 +1,184 @@
+/* Add CSS styling here */
+
+/* reset css */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+/* HTML5 display-role reset */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+/* every element is a border-box */
+* {
+    box-sizing: border-box;
+    background-color: #24252A;
+}
+
+html {
+    font-size: 86.5%;
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+    color: #edf0f1;
+    font-size: 3rem;
+    padding: 2rem 2rem;
+    margin-left: .1rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #0088a9;
+    margin: 2rem 8rem 1rem 8rem;
+    padding-bottom: 2rem;
+    
+}
+
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.topnav li {
+    display: inline-flex;
+    padding: 0 2rem;
+}
+
+.topnav li a {
+    transition: all 0.3s ease 0s;
+}
+
+.topnav li a:hover{
+    transition: all 0.3s ease 0s;
+    color: #0088a9;
+}
+
+.first_container {
+    display: inline-flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.info_container {
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: left;
+    margin-right: 10rem;
+    padding: 6.7rem 1rem;
+    
+}
+
+h2 {
+    font-size: 2rem;
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 1rem;
+}
+
+#aboutme {
+    font-size: 1.2rem;
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
+    line-height: 2rem;
+    margin-top: 1rem;
+}
+
+#Headshot_img {
+    width: 120%;
+    border: 2px solid #0088a9;
+    border-radius: 50%;
+    margin-right: 10rem;
+}
+
+.Projects_Btn {
+    padding: .9rem 2.5rem;
+    color: #edf0f1;
+    font-size: 1.2rem;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+.project_section {
+    border-top: 2px solid #0088a9;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    padding: 3rem;
+    margin: 3rem 7rem;
+}
+
+
+.project_section li {
+    width: 20%;
+    margin: 1.5rem;
+    
+}
+
+.project_section li img {
+    border: 1px solid #0088a9;
+    
+}
+
+h3 {
+    font-size: 1.6rem;
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
+    background-color: #0088a9;
+    margin-bottom: 1rem;
+}
+
+.footer_section {
+    background-color: #0088a9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 6rem;
+}
+
+.Contact_Btn {
+    padding: .9rem 2.5rem;
+    color: #edf0f1;
+    font-size: 1.2rem;
+    background-color: #24252A;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
